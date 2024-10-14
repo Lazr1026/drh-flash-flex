@@ -1,0 +1,458 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "72e001f0-4e57-42be-b5c0-7335e0948789")
+	(paper "A4")
+	(lib_symbols
+		(symbol "flash:flash"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0.508 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOP-8_5.28x5.23mm_P1.27mm"
+				(at 0 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "flash_0_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "flash_1_1"
+				(pin output line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "CS#"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "WP#"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -1.27 180)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "HOLD#"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 1.27 180)
+					(length 2.54)
+					(name "3v3"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 119.38 87.63) (xy 119.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b815bb-007c-4afb-a456-d3470b1edbe7")
+	)
+	(wire
+		(pts
+			(xy 130.81 85.09) (xy 130.81 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c5a89a-0d6b-49d6-a4e8-367b19a6357f")
+	)
+	(global_label "CS"
+		(shape input)
+		(at 119.38 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right)
+		)
+		(uuid "4c1e5655-036b-47cd-b2a3-67c6622bd93a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.9153 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 130.81 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left)
+		)
+		(uuid "5322bce8-0db6-45d0-b63f-b0db95d719e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.3914 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK"
+		(shape input)
+		(at 130.81 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left)
+		)
+		(uuid "62191c6d-4fa2-4412-a3b0-c5e2c690f25d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.3633 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3v3"
+		(shape input)
+		(at 130.81 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left)
+		)
+		(uuid "7f29c927-9c94-4fa4-a839-1ff6ea8879e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.1818 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 119.38 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right)
+		)
+		(uuid "c2a44095-ffa6-41a4-8008-cf6f6e2952e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.5243 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 119.38 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right)
+		)
+		(uuid "f259995a-d993-46f1-8c01-e1b46ed17934")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.7986 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flash:flash")
+		(at 124.46 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1289e0e-bc43-473d-810e-fbb3e6ca18af")
+		(property "Reference" "U1"
+			(at 124.968 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 125.095 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-8_5.28x5.23mm_P1.27mm"
+			(at 124.46 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5224fab0-a351-4580-b81f-bb7d6a27b71b")
+		)
+		(pin "7"
+			(uuid "4f388057-e001-48f5-9e8f-031fb68a5a82")
+		)
+		(pin "8"
+			(uuid "39c87d5e-41e7-47e8-8055-2812f08370b3")
+		)
+		(pin "2"
+			(uuid "65f63fff-1bab-46b9-b970-1783e806ab0d")
+		)
+		(pin "3"
+			(uuid "66f656fa-118a-4b9b-9811-7dd5e8a37b96")
+		)
+		(pin "4"
+			(uuid "b2df465d-d192-4071-91f4-b4074bdfdccb")
+		)
+		(pin "6"
+			(uuid "742bc228-32c6-42f5-bfa9-877b0f39bb96")
+		)
+		(pin "5"
+			(uuid "343dce1d-9e03-4289-afbc-5d289b7ab367")
+		)
+		(instances
+			(project ""
+				(path "/72e001f0-4e57-42be-b5c0-7335e0948789"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
