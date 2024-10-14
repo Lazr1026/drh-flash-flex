@@ -10,5 +10,5 @@ The flex should be compatible with all board revisions, but the via for 3v3 was 
 Shorts between 3v3 and GND should not be a worry, as there is no copper on the other side of the flex in that area.
 
 ### Credits
-[YveltalGriffin](https://github.com/mackieks): Suggestion of rotating the IC to be vertical, which then really cleaned up the routing.
+[YveltalGriffin](https://github.com/mackieks): Suggestion of rotating the IC to be vertical, which then really cleaned up the routing.  
 [BitBuilt](https://bitbuilt.net/): Being pretty fucking cool.
