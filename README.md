@@ -9,6 +9,11 @@ The flex should be compatible with all board revisions, but the via for 3v3 was 
 
 Shorts between 3v3 and GND should not be a worry, as there is no copper on the other side of the flex in that area.
 
+**Tested and working!**
+![](https://github.com/Lazr1026/drh-flash-flex//blob/main/img/top.jpg?raw=true)
+![](https://github.com/Lazr1026/drh-flash-flex//blob/main/img/bottom.jpg?raw=true)
+![](https://github.com/Lazr1026/drh-flash-flex//blob/main/img/gamepad.jpg?raw=true)
+
 ### Credits
-[YveltalGriffin](https://github.com/mackieks): Suggestion of rotating the IC to be vertical, which then really cleaned up the routing.  
+[YveltalGriffin](https://github.com/mackieks): Suggestion of rotating the IC to be vertical, which then really cleaned up the routing.
 [BitBuilt](https://bitbuilt.net/): Being pretty fucking cool.
